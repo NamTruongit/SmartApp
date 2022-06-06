@@ -42,7 +42,7 @@
             // RdClient
             // 
             this.RdClient.AutoSize = true;
-            this.RdClient.Location = new System.Drawing.Point(28, 17);
+            this.RdClient.Location = new System.Drawing.Point(50, 17);
             this.RdClient.Margin = new System.Windows.Forms.Padding(4);
             this.RdClient.Name = "RdClient";
             this.RdClient.Size = new System.Drawing.Size(68, 25);
@@ -50,11 +50,12 @@
             this.RdClient.TabStop = true;
             this.RdClient.Text = "Client";
             this.RdClient.UseVisualStyleBackColor = true;
+            this.RdClient.CheckedChanged += new System.EventHandler(this.RdClient_CheckedChanged);
             // 
             // RdServer
             // 
             this.RdServer.AutoSize = true;
-            this.RdServer.Location = new System.Drawing.Point(28, 60);
+            this.RdServer.Location = new System.Drawing.Point(50, 62);
             this.RdServer.Margin = new System.Windows.Forms.Padding(4);
             this.RdServer.Name = "RdServer";
             this.RdServer.Size = new System.Drawing.Size(73, 25);
@@ -62,6 +63,7 @@
             this.RdServer.TabStop = true;
             this.RdServer.Text = "Server";
             this.RdServer.UseVisualStyleBackColor = true;
+            this.RdServer.CheckedChanged += new System.EventHandler(this.RdServer_CheckedChanged);
             // 
             // lbSetting
             // 
@@ -99,6 +101,7 @@
             this.BtnStart.TabIndex = 3;
             this.BtnStart.Text = "Start";
             this.BtnStart.UseVisualStyleBackColor = true;
+            this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
             // 
             // BtnStop
             // 

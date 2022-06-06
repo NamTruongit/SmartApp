@@ -84,9 +84,9 @@
             "40",
             "50",
             "60"});
-            this.CbTime.Location = new System.Drawing.Point(194, 29);
+            this.CbTime.Location = new System.Drawing.Point(192, 29);
             this.CbTime.Name = "CbTime";
-            this.CbTime.Size = new System.Drawing.Size(212, 28);
+            this.CbTime.Size = new System.Drawing.Size(214, 28);
             this.CbTime.TabIndex = 1;
             // 
             // CkbAutoUpdate
@@ -106,9 +106,9 @@
             "Hue",
             "SaiGon",
             "DaNang"});
-            this.CbDataName.Location = new System.Drawing.Point(194, 151);
+            this.CbDataName.Location = new System.Drawing.Point(192, 151);
             this.CbDataName.Name = "CbDataName";
-            this.CbDataName.Size = new System.Drawing.Size(212, 28);
+            this.CbDataName.Size = new System.Drawing.Size(214, 28);
             this.CbDataName.TabIndex = 6;
             // 
             // btnSave
