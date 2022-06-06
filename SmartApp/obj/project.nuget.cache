@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "guqJgw6/KyrUcRxrA7MJya6TC6rsdbjHRaHe7di/phwUe2XCpMAu/dc3swNq2NM/XIvNymZ4H+3iFT82ULryQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\BOOKMAN_SMARTAPP\\SmartApp\\SmartApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.windowsapicodepack-core\\1.1.0.2\\microsoft.windowsapicodepack-core.1.1.0.2.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.windowsapicodepack-shell\\1.1.0\\microsoft.windowsapicodepack-shell.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.WindowsAPICodePack-Core 1.1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.WindowsAPICodePack-Core",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.WindowsAPICodePack-Shell 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
