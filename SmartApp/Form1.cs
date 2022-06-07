@@ -17,19 +17,11 @@ namespace SmartApp
             InitializeComponent();
         }
 
-        private void lbSetting_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            FSetting fSetting = new FSetting();
-            this.Hide();
-            fSetting.ShowDialog();
-            this.Show();
-        }
+        
 
         #region properties
         private string status = "";
-
-
-
+        
         #endregion end properties
         #region method
         private void check(Panel panel)
@@ -77,7 +69,23 @@ namespace SmartApp
                 MessageBox.Show("Select 1 of them");
             }
         }
+        private void lbSetting_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FSetting fSetting = new FSetting();
+            this.Hide();
+            fSetting.ShowDialog();
+            this.Show();
+        }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FData fData = new FData();
+            this.Hide();
+            fData.ShowDialog();
+            this.Show();
+        }
+
         #endregion event
+
 
     }
 }

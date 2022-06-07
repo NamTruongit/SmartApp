@@ -35,6 +35,7 @@
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.BtnStart = new System.Windows.Forms.Button();
             this.BtnStop = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
@@ -112,11 +113,23 @@
             this.BtnStop.Text = "Stop";
             this.BtnStop.UseVisualStyleBackColor = true;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(245, 343);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(74, 21);
+            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Database";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // FMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 452);
+            this.ClientSize = new System.Drawing.Size(339, 373);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.BtnStart);
             this.Controls.Add(this.panel1);
@@ -143,5 +156,6 @@
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Button BtnStop;
         private System.Windows.Forms.Button BtnStart;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
